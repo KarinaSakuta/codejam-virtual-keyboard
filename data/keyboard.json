@@ -341,13 +341,6 @@
       "symbolENGShift": "V"
     },
     {
-      "keyCode": 71,
-      "symbolRU": "п",
-      "symbolRUShift": "П",
-      "symbolENG": "g",
-      "symbolENGShift": "G"
-    },
-    {
       "keyCode": 66,
       "symbolRU": "и",
       "symbolRUShift": "И",
@@ -429,7 +422,7 @@
       "symbolRUShift": "",
       "symbolENG": "",
       "symbolENGShift": "",
-      "noWord": ""
+      "noWord": " "
     },
     {
       "keyCode": 18,

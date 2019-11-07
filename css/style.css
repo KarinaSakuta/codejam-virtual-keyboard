@@ -78,3 +78,7 @@ body {
 .key[data-index='39'] {
     margin-right: 23px;
 }
+
+.row:nth-child(4) .key[data-index='17'] {
+    width: 75px;
+}
