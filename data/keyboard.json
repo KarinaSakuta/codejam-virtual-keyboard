@@ -1,0 +1,475 @@
+[
+  [
+    {
+      "keyCode": 192,
+      "symbolRU": "ё",
+      "symbolRUShift": "Ё",
+      "symbolENG": "`",
+      "symbolENGShift": "~"
+    },
+    {
+      "keyCode": 49,
+      "symbolRU": "1",
+      "symbolRUShift": "!",
+      "symbolENG": "1",
+      "symbolENGShift": "!"
+    },
+    {
+      "keyCode": 50,
+      "symbolRU": "2",
+      "symbolRUShift": "\"",
+      "symbolENG": "2",
+      "symbolENGShift": "@"
+    },
+    {
+      "keyCode": 51,
+      "symbolRU": "3",
+      "symbolRUShift": "№",
+      "symbolENG": "3",
+      "symbolENGShift": "#"
+    },
+    {
+      "keyCode": 52,
+      "symbolRU": "4",
+      "symbolRUShift": ";",
+      "symbolENG": "4",
+      "symbolENGShift": "$"
+    },
+    {
+      "keyCode": 53,
+      "symbolRU": "5",
+      "symbolRUShift": "%",
+      "symbolENG": "5",
+      "symbolENGShift": "%"
+    },
+    {
+      "keyCode": 54,
+      "symbolRU": "6",
+      "symbolRUShift": ":",
+      "symbolENG": "6",
+      "symbolENGShift": "^"
+    },
+    {
+      "keyCode": 55,
+      "symbolRU": "7",
+      "symbolRUShift": "?",
+      "symbolENG": "7",
+      "symbolENGShift": "&"
+    },
+    {
+      "keyCode": 56,
+      "symbolRU": "8",
+      "symbolRUShift": "*",
+      "symbolENG": "8",
+      "symbolENGShift": "*"
+    },
+    {
+      "keyCode": 57,
+      "symbolRU": "9",
+      "symbolRUShift": "(",
+      "symbolENG": "9",
+      "symbolENGShift": "("
+    },
+    {
+      "keyCode": 48,
+      "symbolRU": "0",
+      "symbolRUShift": ")",
+      "symbolENG": "0",
+      "symbolENGShift": ")"
+    },
+    {
+      "keyCode": 189,
+      "symbolRU": "-",
+      "symbolRUShift": "_",
+      "symbolENG": "-",
+      "symbolENGShift": "_"
+    },
+    {
+      "keyCode": 187,
+      "symbolRU": "=",
+      "symbolRUShift": "+",
+      "symbolENG": "=",
+      "symbolENGShift": "+"
+    },
+    {
+      "keyCode": 8,
+      "symbolRU": "Backspace",
+      "symbolRUShift": "Backspace",
+      "symbolENG": "Backspace",
+      "symbolENGShift": "Backspace",
+      "noWord": "delete"
+    }
+  ],
+  [
+    {
+      "keyCode": 9,
+      "symbolRU": "Tab",
+      "symbolRUShift": "Tab",
+      "symbolENG": "Tab",
+      "symbolENGShift": "Tab",
+      "noWord": "   "
+    },
+    {
+      "keyCode": 81,
+      "symbolRU": "й",
+      "symbolRUShift": "Й",
+      "symbolENG": "q",
+      "symbolENGShift": "Q"
+    },
+    {
+      "keyCode": 87,
+      "symbolRU": "ц",
+      "symbolRUShift": "Ц",
+      "symbolENG": "w",
+      "symbolENGShift": "W"
+    },
+    {
+      "keyCode": 69,
+      "symbolRU": "у",
+      "symbolRUShift": "У",
+      "symbolENG": "e",
+      "symbolENGShift": "E"
+    },
+    {
+      "keyCode": 82,
+      "symbolRU": "к",
+      "symbolRUShift": "К",
+      "symbolENG": "r",
+      "symbolENGShift": "R"
+    },
+    {
+      "keyCode": 84,
+      "symbolRU": "е",
+      "symbolRUShift": "Е",
+      "symbolENG": "t",
+      "symbolENGShift": "T"
+    },
+    {
+      "keyCode": 89,
+      "symbolRU": "н",
+      "symbolRUShift": "Н",
+      "symbolENG": "y",
+      "symbolENGShift": "Y"
+    },
+    {
+      "keyCode": 85,
+      "symbolRU": "г",
+      "symbolRUShift": "Г",
+      "symbolENG": "u",
+      "symbolENGShift": "U"
+    },
+    {
+      "keyCode": 73,
+      "symbolRU": "ш",
+      "symbolRUShift": "Ш",
+      "symbolENG": "i",
+      "symbolENGShift": "I"
+    },
+    {
+      "keyCode": 79,
+      "symbolRU": "щ",
+      "symbolRUShift": "Щ",
+      "symbolENG": "o",
+      "symbolENGShift": "O"
+    },
+    {
+      "keyCode": 80,
+      "symbolRU": "з",
+      "symbolRUShift": "З",
+      "symbolENG": "p",
+      "symbolENGShift": "P"
+    },
+    {
+      "keyCode": 219,
+      "symbolRU": "х",
+      "symbolRUShift": "Х",
+      "symbolENG": "[",
+      "symbolENGShift": "{"
+    },
+    {
+      "keyCode": 221,
+      "symbolRU": "ъ",
+      "symbolRUShift": "Ъ",
+      "symbolENG": "]",
+      "symbolENGShift": "}"
+    },
+    {
+      "keyCode": 220,
+      "symbolRU": "\\",
+      "symbolRUShift": "\/",
+      "symbolENG": "\\",
+      "symbolENGShift": "|"
+    },
+    {
+      "keyCode": 46,
+      "symbolRU": "",
+      "symbolRUShift": "",
+      "symbolENG": "",
+      "symbolENGShift": ""
+    }
+  ],
+  [
+    {
+      "keyCode": 16,
+      "symbolRU": "Shift",
+      "symbolRUShift": "Shift",
+      "symbolENG": "Shift",
+      "symbolENGShift": "Shift",
+      "noWord": ""
+    },
+    {
+      "keyCode": 65,
+      "symbolRU": "ф",
+      "symbolRUShift": "Ф",
+      "symbolENG": "a",
+      "symbolENGShift": "A"
+    },
+    {
+      "keyCode": 83,
+      "symbolRU": "ы",
+      "symbolRUShift": "Ы",
+      "symbolENG": "s",
+      "symbolENGShift": "S"
+    },
+    {
+      "keyCode": 68,
+      "symbolRU": "в",
+      "symbolRUShift": "В",
+      "symbolENG": "d",
+      "symbolENGShift": "D"
+    },
+    {
+      "keyCode": 70,
+      "symbolRU": "а",
+      "symbolRUShift": "А",
+      "symbolENG": "f",
+      "symbolENGShift": "F"
+    },
+    {
+      "keyCode": 71,
+      "symbolRU": "п",
+      "symbolRUShift": "П",
+      "symbolENG": "g",
+      "symbolENGShift": "G"
+    },
+    {
+      "keyCode": 72,
+      "symbolRU": "р",
+      "symbolRUShift": "Р",
+      "symbolENG": "h",
+      "symbolENGShift": "H"
+    },
+    {
+      "keyCode": 74,
+      "symbolRU": "о",
+      "symbolRUShift": "О",
+      "symbolENG": "j",
+      "symbolENGShift": "J"
+    },
+    {
+      "keyCode": 75,
+      "symbolRU": "л",
+      "symbolRUShift": "Л",
+      "symbolENG": "k",
+      "symbolENGShift": "K"
+    },
+    {
+      "keyCode": 76,
+      "symbolRU": "д",
+      "symbolRUShift": "Д",
+      "symbolENG": "l",
+      "symbolENGShift": "L"
+    },
+    {
+      "keyCode": 186,
+      "symbolRU": "ж",
+      "symbolRUShift": "Ж",
+      "symbolENG": ";",
+      "symbolENGShift": ":"
+    },
+    {
+      "keyCode": 222,
+      "symbolRU": "э",
+      "symbolRUShift": "Э",
+      "symbolENG": "'",
+      "symbolENGShift": "\""
+    },
+    {
+      "keyCode": 16,
+      "symbolRU": "Shift",
+      "symbolRUShift": "Shift",
+      "symbolENG": "Shift",
+      "symbolENGShift": "Shift",
+      "noWord": ""
+    }
+  ],
+  [
+    {
+      "keyCode": 17,
+      "symbolRU": "Ctrl",
+      "symbolRUShift": "Ctrl",
+      "symbolENG": "Ctrl",
+      "symbolENGShift": "Ctrl",
+      "noWord": ""
+    },
+    {
+      "keyCode": 90,
+      "symbolRU": "я",
+      "symbolRUShift": "Я",
+      "symbolENG": "z",
+      "symbolENGShift": "Z"
+    },
+    {
+      "keyCode": 88,
+      "symbolRU": "ч",
+      "symbolRUShift": "Ч",
+      "symbolENG": "x",
+      "symbolENGShift": "X"
+    },
+    {
+      "keyCode": 67,
+      "symbolRU": "с",
+      "symbolRUShift": "С",
+      "symbolENG": "c",
+      "symbolENGShift": "C"
+    },
+    {
+      "keyCode": 86,
+      "symbolRU": "м",
+      "symbolRUShift": "М",
+      "symbolENG": "v",
+      "symbolENGShift": "V"
+    },
+    {
+      "keyCode": 71,
+      "symbolRU": "п",
+      "symbolRUShift": "П",
+      "symbolENG": "g",
+      "symbolENGShift": "G"
+    },
+    {
+      "keyCode": 66,
+      "symbolRU": "и",
+      "symbolRUShift": "И",
+      "symbolENG": "b",
+      "symbolENGShift": "B"
+    },
+    {
+      "keyCode": 78,
+      "symbolRU": "т",
+      "symbolRUShift": "Т",
+      "symbolENG": "n",
+      "symbolENGShift": "N"
+    },
+    {
+      "keyCode": 77,
+      "symbolRU": "ь",
+      "symbolRUShift": "Ь",
+      "symbolENG": "m",
+      "symbolENGShift": "M"
+    },
+    {
+      "keyCode": 188,
+      "symbolRU": "б",
+      "symbolRUShift": "Б",
+      "symbolENG": ",",
+      "symbolENGShift": "<"
+    },
+    {
+      "keyCode": 190,
+      "symbolRU": "ю",
+      "symbolRUShift": "Ю",
+      "symbolENG": ".",
+      "symbolENGShift": ">"
+    },
+    {
+      "keyCode": 191,
+      "symbolRU": ".",
+      "symbolRUShift": ",",
+      "symbolENG": "/",
+      "symbolENGShift": "?"
+    },
+    {
+      "keyCode": 38,
+      "symbolRU": "↑",
+      "symbolRUShift": "↑",
+      "symbolENG": "↑",
+      "symbolENGShift": "↑",
+      "noWord": ""
+    },
+    {
+      "keyCode": 13,
+      "symbolRU": "Enter",
+      "symbolRUShift": "Enter",
+      "symbolENG": "Enter",
+      "symbolENGShift": "Enter",
+      "noWord": "Enter"
+    }
+  ],
+  [
+    {
+      "keyCode": 91,
+      "symbolRU": "Win",
+      "symbolRUShift": "Win",
+      "symbolENG": "Win",
+      "symbolENGShift": "Win",
+      "noWord": ""
+    },
+    {
+      "keyCode": 18,
+      "symbolRU": "Alt",
+      "symbolRUShift": "Alt",
+      "symbolENG": "Alt",
+      "symbolENGShift": "Alt",
+      "noWord": ""
+    },
+    {
+      "keyCode": 32,
+      "symbolRU": "",
+      "symbolRUShift": "",
+      "symbolENG": "",
+      "symbolENGShift": "",
+      "noWord": ""
+    },
+    {
+      "keyCode": 18,
+      "symbolRU": "Alt",
+      "symbolRUShift": "Alt",
+      "symbolENG": "Alt",
+      "symbolENGShift": "Alt",
+      "noWord": ""
+    },
+    {
+      "keyCode": 17,
+      "symbolRU": "Ctrl",
+      "symbolRUShift": "Ctrl",
+      "symbolENG": "Ctrl",
+      "symbolENGShift": "Ctrl",
+      "noWord": ""
+    },
+    {
+      "keyCode": 37,
+      "symbolRU": "←",
+      "symbolRUShift": "←",
+      "symbolENG": "←",
+      "symbolENGShift": "←",
+      "noWord": ""
+    },
+    {
+      "keyCode": 40,
+      "symbolRU": "↓",
+      "symbolRUShift": "↓",
+      "symbolENG": "↓",
+      "symbolENGShift": "↓",
+      "noWord": ""
+    },
+    {
+      "keyCode": 39,
+      "symbolRU": "→",
+      "symbolRUShift": "→",
+      "symbolENG": "→",
+      "symbolENGShift": "→",
+      "noWord": ""
+    }
+  ]
+]

@@ -1,0 +1,80 @@
+body {
+    margin: 20px auto;
+    display: flex;
+    flex-direction: column;
+    max-width: 540px;
+}
+
+.keyboard {
+    margin: 0 auto;
+    display: flex;
+    flex-direction: column;
+}
+
+.keyboard__input {
+    margin: 15px auto;
+    width: 895px;
+}
+
+.keyboard__main {
+    margin: auto;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+    width: 700px;
+    height: 250px;
+    background-color: pink;
+}
+
+.keyboard-container {
+    margin: 20px auto;
+    max-width: 700px;
+    background-color: cornflowerblue;
+    user-select: none;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin: 10px 0;
+}
+
+.row * {
+    font-size: 25px;
+    margin: 0 5px;
+    flex-grow: 1;
+    font-weight: 700;
+    border: 1px solid green;
+    min-width: 20px;
+    min-height: 20px;
+}
+
+.key.active {
+    background-color: red;
+}
+
+.key {
+    text-align: center;
+    background-color:#4e95bc;
+}
+
+.key[data-index='32'] {
+    width: 100px;
+}
+
+.key[data-index='91'] {
+    width: 25px;
+}
+
+.key[data-index='18'] {
+    width: 15px;
+}
+
+.key[data-index='38'] {
+    width: 40px;
+}
+
+.key[data-index='39'] {
+    margin-right: 23px;
+}
