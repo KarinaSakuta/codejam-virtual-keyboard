@@ -7,35 +7,6 @@ class TextArea {
     this.state = {
       textAreaContainer,
     };
-
-    this.handlerClick();
-  }
-
-  handlerClick() {
-    const { textAreaContainer } = this.state;
-
-    document.addEventListener('mousedown', ({ target }) => {
-      if (target.classList.contains('key')) {
-        target.classList.add('active');
-      }
-    });
-
-    document.addEventListener('mouseup', ({ target }) => {
-      if (target.classList.contains('key')) {
-        target.classList.remove('active');
-
-        if (!target.classList.contains('no-word')) {
-          textAreaContainer.innerHTML += target.innerHTML;
-        } else if (target.dataset.noWord === 'delete') {
-          textAreaContainer.innerHTML = textAreaContainer.innerHTML.slice(0,
-            textAreaContainer.innerHTML.length - 1);
-        } else if (target.dataset.noWord === 'Enter') {
-          textAreaContainer.innerHTML += '\n';
-        } else {
-          textAreaContainer.innerHTML += target.dataset.noWord;
-        }
-      }
-    });
   }
 }
 
@@ -54,8 +25,11 @@ class Keyboard {
       keyboardContainer,
       textArea: textArea.state.textAreaContainer,
     };
+  }
 
+  init() {
     this.loadJSON();
+    this.initListeners();
   }
 
   checkToShift(newState, keyCode) {
@@ -83,32 +57,52 @@ class Keyboard {
     }
   }
 
-  handlerKeyEvents() {
-    document.addEventListener('keydown', ({ keyCode }) => {
-      event.preventDefault();
+  downHandler(keyCode) {
+    const { pressedKeys } = this.state;
+    if (pressedKeys.has(keyCode)) return;
+    pressedKeys.add(keyCode);
 
-      const { pressedKeys } = this.state;
-      if (pressedKeys.has(keyCode)) return;
-      pressedKeys.add(keyCode);
+    this.checkToShift(true, keyCode);
 
-      this.checkToShift(true, keyCode);
+    this.setState({
+      pressedKeys,
+    });
+  }
 
-      this.setState({
-        pressedKeys,
-      });
+  upHandler(keyCode) {
+    this.checkToChangeLanguage();
+
+    const { pressedKeys } = this.state;
+    pressedKeys.delete(keyCode);
+
+    this.checkToShift(false, keyCode);
+
+    this.setState({
+      pressedKeys,
+    });
+  }
+
+  initListeners() {
+    document.addEventListener('mousedown', ({ target }) => {
+      const keyCode = Number(target.dataset.index);
+
+      this.downHandler(keyCode);
     });
 
-    document.addEventListener('keyup', ({ keyCode }) => {
-      this.checkToChangeLanguage();
+    document.addEventListener('mouseup', ({ target }) => {
+      const keyCode = Number(target.dataset.index);
 
-      const { pressedKeys } = this.state;
-      pressedKeys.delete(keyCode);
+      this.upHandler(keyCode);
+    });
 
-      this.checkToShift(false, keyCode);
+    document.addEventListener('keydown', (event) => {
+      event.preventDefault();
 
-      this.setState({
-        pressedKeys,
-      });
+      this.downHandler(event.keyCode);
+    });
+
+    document.addEventListener('keyup', (event) => {
+      this.upHandler(event.keyCode);
     });
   }
 
@@ -119,8 +113,6 @@ class Keyboard {
     this.setState({
       keyboard: json,
     });
-
-    this.handlerKeyEvents();
   }
 
   setState(obj) {
@@ -183,3 +175,5 @@ class Keyboard {
 
 const textArea = new TextArea();
 const keyboard = new Keyboard(textArea);
+
+keyboard.init();
