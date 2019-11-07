@@ -39,8 +39,6 @@ class TextArea {
   }
 }
 
-const textArea = new TextArea();
-
 class Keyboard {
   constructor(textArea) {
     const { body } = document;
@@ -141,7 +139,7 @@ class Keyboard {
       language,
       isShiftPress,
       keyboardContainer,
-      textArea1,
+      textArea,
     } = this.state;
 
     keyboardContainer.innerHTML = '';
@@ -158,15 +156,15 @@ class Keyboard {
 
         if (isPress) {
           if (!isComand) {
-            textArea1.innerHTML += symbol;
+            textArea.innerHTML += symbol;
           } else if (noWord === 'delete') {
-            const arrSymbol = textArea1.innerHTML.split('');
+            const arrSymbol = textArea.innerHTML.split('');
             arrSymbol.pop();
-            textArea1.innerHTML = arrSymbol.join('');
+            textArea.innerHTML = arrSymbol.join('');
           } else if (noWord === 'Enter') {
-            textArea1.innerHTML += '\n';
+            textArea.innerHTML += '\n';
           } else {
-            textArea1.innerHTML += noWord;
+            textArea.innerHTML += noWord;
           }
         }
 
@@ -183,4 +181,5 @@ class Keyboard {
   }
 }
 
+const textArea = new TextArea();
 const keyboard = new Keyboard(textArea);
